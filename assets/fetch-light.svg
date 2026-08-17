@@ -14,7 +14,7 @@
 <circle cx="24" cy="19" r="5.5" fill="#d20f39"/>
 <circle cx="43" cy="19" r="5.5" fill="#df8e1d"/>
 <circle cx="62" cy="19" r="5.5" fill="#40a02b"/>
-<text x="332.5" y="23" fill="#8c8fa1" font-size="12" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">architekt@github: ~</text>
+<text x="332.5" y="23" fill="#8c8fa1" font-size="12" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">architektapx@github: ~</text>
 <rect x="84.80" y="102.00" width="16.80" height="21.00" fill="url(#logo)"/>
 <rect x="76.40" y="123.00" width="33.60" height="21.00" fill="url(#logo)"/>
 <rect x="68.00" y="144.00" width="16.80" height="21.00" fill="url(#logo)"/>
@@ -70,9 +70,9 @@
 <text x="395.6" y="221.0" fill="#4c4f69" textLength="100.8" lengthAdjust="spacingAndGlyphs">13 followers</text>
 <text x="194.0" y="242.0" fill="#1e66f5" textLength="50.4" lengthAdjust="spacingAndGlyphs">Latest</text>
 <text x="252.8" y="242.0" fill="#8c8fa1" textLength="33.6" lengthAdjust="spacingAndGlyphs">····</text>
-<text x="294.8" y="242.0" fill="#4c4f69" textLength="193.2" lengthAdjust="spacingAndGlyphs">Vibe-Driven-Development</text>
-<text x="496.4" y="242.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
-<text x="513.2" y="242.0" fill="#4c4f69" textLength="50.4" lengthAdjust="spacingAndGlyphs">1m ago</text>
+<text x="294.8" y="242.0" fill="#4c4f69" textLength="100.8" lengthAdjust="spacingAndGlyphs">ArchitektApx</text>
+<text x="404.0" y="242.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="420.8" y="242.0" fill="#4c4f69" textLength="50.4" lengthAdjust="spacingAndGlyphs">1m ago</text>
 <text x="194.0" y="263.0" fill="#1e66f5" textLength="42.0" lengthAdjust="spacingAndGlyphs">Where</text>
 <text x="244.4" y="263.0" fill="#8c8fa1" textLength="42.0" lengthAdjust="spacingAndGlyphs">·····</text>
 <text x="294.8" y="263.0" fill="#4c4f69" textLength="58.8" lengthAdjust="spacingAndGlyphs">Austria</text>
