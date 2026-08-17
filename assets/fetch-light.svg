@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="665" height="355" viewBox="0 0 665 355" role="img" aria-label="ArchitektApx profile card">
+<title>ArchitektApx profile card</title>
+<defs>
+<linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#8839ef"/>
+<stop offset="100%" stop-color="#1e66f5"/>
+</linearGradient>
+<clipPath id="card"><rect x="0.5" y="0.5" width="664" height="354" rx="13.5"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="665" height="355" fill="#eff1f5"/>
+<rect width="665" height="38" fill="#e6e9ef"/>
+<line x1="0" y1="38.5" x2="665" y2="38.5" stroke="#ccd0da"/>
+<circle cx="24" cy="19" r="5.5" fill="#d20f39"/>
+<circle cx="43" cy="19" r="5.5" fill="#df8e1d"/>
+<circle cx="62" cy="19" r="5.5" fill="#40a02b"/>
+<text x="332.5" y="23" fill="#8c8fa1" font-size="12" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">architekt@github: ~</text>
+<rect x="84.80" y="102.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="76.40" y="123.00" width="33.60" height="21.00" fill="url(#logo)"/>
+<rect x="68.00" y="144.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="101.60" y="144.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="59.60" y="165.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="110.00" y="165.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="51.20" y="186.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="68.00" y="191.25" width="50.40" height="10.50" fill="url(#logo)"/>
+<rect x="118.40" y="186.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="42.80" y="207.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="126.80" y="207.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="34.40" y="228.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<rect x="135.20" y="228.00" width="16.80" height="21.00" fill="url(#logo)"/>
+<g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="14" xml:space="preserve">
+<text x="42.8" y="284.0" fill="#7c7f93" textLength="100.8" lengthAdjust="spacingAndGlyphs">ARCHITEKTAPX</text>
+<text x="194.0" y="74.0" fill="#8839ef" textLength="100.8" lengthAdjust="spacingAndGlyphs">ArchitektApx</text>
+<text x="294.8" y="74.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">@</text>
+<text x="303.2" y="74.0" fill="#1e66f5" textLength="50.4" lengthAdjust="spacingAndGlyphs">github</text>
+<text x="194.0" y="95.0" fill="#ccd0da" textLength="445.2" lengthAdjust="spacingAndGlyphs">─────────────────────────────────────────────────────</text>
+<text x="194.0" y="116.0" fill="#1e66f5" textLength="16.8" lengthAdjust="spacingAndGlyphs">OS</text>
+<text x="219.2" y="116.0" fill="#8c8fa1" textLength="67.2" lengthAdjust="spacingAndGlyphs">········</text>
+<text x="294.8" y="116.0" fill="#4c4f69" textLength="67.2" lengthAdjust="spacingAndGlyphs">macOS 27</text>
+<text x="370.4" y="116.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="387.2" y="116.0" fill="#4c4f69" textLength="109.2" lengthAdjust="spacingAndGlyphs">Apple Silicon</text>
+<text x="194.0" y="137.0" fill="#1e66f5" textLength="50.4" lengthAdjust="spacingAndGlyphs">Agents</text>
+<text x="252.8" y="137.0" fill="#8c8fa1" textLength="33.6" lengthAdjust="spacingAndGlyphs">····</text>
+<text x="294.8" y="137.0" fill="#4c4f69" textLength="92.4" lengthAdjust="spacingAndGlyphs">Claude Code</text>
+<text x="395.6" y="137.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="412.4" y="137.0" fill="#4c4f69" textLength="50.4" lengthAdjust="spacingAndGlyphs">Cursor</text>
+<text x="194.0" y="158.0" fill="#1e66f5" textLength="42.0" lengthAdjust="spacingAndGlyphs">Langs</text>
+<text x="244.4" y="158.0" fill="#8c8fa1" textLength="42.0" lengthAdjust="spacingAndGlyphs">·····</text>
+<text x="294.8" y="158.0" fill="#4c4f69" textLength="84.0" lengthAdjust="spacingAndGlyphs">PowerShell</text>
+<text x="387.2" y="158.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="404.0" y="158.0" fill="#4c4f69" textLength="42.0" lengthAdjust="spacingAndGlyphs">Shell</text>
+<text x="454.4" y="158.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="471.2" y="158.0" fill="#4c4f69" textLength="84.0" lengthAdjust="spacingAndGlyphs">TypeScript</text>
+<text x="194.0" y="179.0" fill="#1e66f5" textLength="42.0" lengthAdjust="spacingAndGlyphs">Focus</text>
+<text x="244.4" y="179.0" fill="#8c8fa1" textLength="42.0" lengthAdjust="spacingAndGlyphs">·····</text>
+<text x="294.8" y="179.0" fill="#4c4f69" textLength="151.2" lengthAdjust="spacingAndGlyphs">PowerShell tooling</text>
+<text x="454.4" y="179.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="471.2" y="179.0" fill="#4c4f69" textLength="33.6" lengthAdjust="spacingAndGlyphs">M365</text>
+<text x="513.2" y="179.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="530.0" y="179.0" fill="#4c4f69" textLength="109.2" lengthAdjust="spacingAndGlyphs">agent plugins</text>
+<text x="194.0" y="200.0" fill="#1e66f5" textLength="42.0" lengthAdjust="spacingAndGlyphs">Ships</text>
+<text x="244.4" y="200.0" fill="#8c8fa1" textLength="42.0" lengthAdjust="spacingAndGlyphs">·····</text>
+<text x="294.8" y="200.0" fill="#4c4f69" textLength="176.4" lengthAdjust="spacingAndGlyphs">5 Claude Code plugins</text>
+<text x="479.6" y="200.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="496.4" y="200.0" fill="#4c4f69" textLength="126.0" lengthAdjust="spacingAndGlyphs">18 public repos</text>
+<text x="194.0" y="221.0" fill="#1e66f5" textLength="42.0" lengthAdjust="spacingAndGlyphs">Stars</text>
+<text x="244.4" y="221.0" fill="#8c8fa1" textLength="42.0" lengthAdjust="spacingAndGlyphs">·····</text>
+<text x="294.8" y="221.0" fill="#4c4f69" textLength="75.6" lengthAdjust="spacingAndGlyphs">29 earned</text>
+<text x="378.8" y="221.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="395.6" y="221.0" fill="#4c4f69" textLength="100.8" lengthAdjust="spacingAndGlyphs">13 followers</text>
+<text x="194.0" y="242.0" fill="#1e66f5" textLength="50.4" lengthAdjust="spacingAndGlyphs">Latest</text>
+<text x="252.8" y="242.0" fill="#8c8fa1" textLength="33.6" lengthAdjust="spacingAndGlyphs">····</text>
+<text x="294.8" y="242.0" fill="#4c4f69" textLength="134.4" lengthAdjust="spacingAndGlyphs">HackerNews-Brief</text>
+<text x="437.6" y="242.0" fill="#8c8fa1" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="454.4" y="242.0" fill="#4c4f69" textLength="58.8" lengthAdjust="spacingAndGlyphs">36m ago</text>
+<text x="194.0" y="263.0" fill="#1e66f5" textLength="42.0" lengthAdjust="spacingAndGlyphs">Where</text>
+<text x="244.4" y="263.0" fill="#8c8fa1" textLength="42.0" lengthAdjust="spacingAndGlyphs">·····</text>
+<text x="294.8" y="263.0" fill="#4c4f69" textLength="58.8" lengthAdjust="spacingAndGlyphs">Austria</text>
+<text x="194.0" y="305.0" fill="#d20f39" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="227.6" y="305.0" fill="#fe640b" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="261.2" y="305.0" fill="#df8e1d" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="294.8" y="305.0" fill="#40a02b" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="328.4" y="305.0" fill="#179299" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="362.0" y="305.0" fill="#1e66f5" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="395.6" y="305.0" fill="#8839ef" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="429.2" y="305.0" fill="#ea76cb" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="194.0" y="326.0" fill="#d20f39" opacity="0.45" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="227.6" y="326.0" fill="#fe640b" opacity="0.45" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="261.2" y="326.0" fill="#df8e1d" opacity="0.45" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="294.8" y="326.0" fill="#40a02b" opacity="0.45" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="328.4" y="326.0" fill="#179299" opacity="0.45" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="362.0" y="326.0" fill="#1e66f5" opacity="0.45" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="395.6" y="326.0" fill="#8839ef" opacity="0.45" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="429.2" y="326.0" fill="#ea76cb" opacity="0.45" textLength="25.2" lengthAdjust="spacingAndGlyphs">███</text>
+</g>
+</g>
+<rect x="0.5" y="0.5" width="664" height="354" rx="13.5" fill="none" stroke="#ccd0da"/>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "user": "ArchitektApx",
+  "host": "github",
+  "windowTitle": "architekt@github: ~",
+  "logoCaption": "ARCHITEKTAPX",
+  "pluginRepos": [
+    "Auth-Guard",
+    "powershell-expert",
+    "cursor-skills-for-claude",
+    "Vibe-Driven-Development",
+    "HackerNews-Brief"
+  ],
+  "rows": [
+    ["OS", "macOS 27 · Apple Silicon"],
+    ["Agents", "Claude Code · Cursor"],
+    ["Langs", "PowerShell · Shell · TypeScript"],
+    ["Focus", "PowerShell tooling · M365 · agent plugins"],
+    ["Ships", "{{plugins}} Claude Code plugins · {{repos}} public repos"],
+    ["Stars", "{{stars}} earned · {{followers}} followers"],
+    ["Latest", "{{latestRepo}} · {{latestAge}}"],
+    ["Where", "Austria"]
+  ]
+}
