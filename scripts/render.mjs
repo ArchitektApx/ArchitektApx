@@ -94,7 +94,10 @@ async function collect(user) {
   }
   const own = repos.filter((r) => !r.fork && !r.private)
   const active = own.filter((r) => !r.archived)
-  const latest = active[0] ?? own[0]
+  // The profile repo commits itself on every card refresh, so it would always
+  // win "latest" and hide real work.
+  const notSelf = (r) => r.name.toLowerCase() !== user.toLowerCase()
+  const latest = active.find(notSelf) ?? own.find(notSelf)
   return {
     // Includes forks, since a heavily rewritten fork can still be a shipped plugin.
     names: new Set(repos.map((r) => r.name)),
