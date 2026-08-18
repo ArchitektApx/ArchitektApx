@@ -102,9 +102,12 @@ async function collect(user) {
   // Sorted by `pushed_at`, which is never older than the head commit, so the
   // true winner cannot rank below this many candidates in practice.
   const candidates = (active.length ? active : own).filter(notSelf).slice(0, 15)
+  // `author` keeps Dependabot and other bots from claiming the row. The date is
+  // the committer's, so it reads as when the work landed, not when it was written.
   const heads = await Promise.all(
     candidates.map(async (r) => {
-      const [head] = await api(`/repos/${r.full_name}/commits?sha=${r.default_branch}&per_page=1`)
+      const query = `sha=${r.default_branch}&author=${user}&per_page=1`
+      const [head] = await api(`/repos/${r.full_name}/commits?${query}`)
       return head ? { name: r.name, at: head.commit.committer.date } : null
     }),
   )
