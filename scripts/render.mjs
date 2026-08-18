@@ -97,7 +97,18 @@ async function collect(user) {
   // The profile repo commits itself on every card refresh, so it would always
   // win "latest" and hide real work.
   const notSelf = (r) => r.name.toLowerCase() !== user.toLowerCase()
-  const latest = active.find(notSelf) ?? own.find(notSelf)
+  // `pushed_at` counts a push to any branch, so a bot updating a sync branch
+  // makes a repo look freshly worked on. Only the default branch head counts.
+  // Sorted by `pushed_at`, which is never older than the head commit, so the
+  // true winner cannot rank below this many candidates in practice.
+  const candidates = (active.length ? active : own).filter(notSelf).slice(0, 15)
+  const heads = await Promise.all(
+    candidates.map(async (r) => {
+      const [head] = await api(`/repos/${r.full_name}/commits?sha=${r.default_branch}&per_page=1`)
+      return head ? { name: r.name, at: head.commit.committer.date } : null
+    }),
+  )
+  const latest = heads.filter(Boolean).sort((a, b) => Date.parse(b.at) - Date.parse(a.at))[0]
   return {
     // Includes forks, since a heavily rewritten fork can still be a shipped plugin.
     names: new Set(repos.map((r) => r.name)),
@@ -105,7 +116,7 @@ async function collect(user) {
     repos: own.length,
     stars: own.reduce((sum, r) => sum + r.stargazers_count, 0),
     latestRepo: latest?.name ?? user,
-    latestAge: latest ? ago(latest.pushed_at) : 'unknown',
+    latestAge: latest ? ago(latest.at) : 'unknown',
   }
 }
 
