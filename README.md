@@ -14,7 +14,7 @@
 
 - **[PrtgSensorKit](https://github.com/ArchitektApx/PrtgSensorKit)** · Framework for building PRTG custom sensors. Less boilerplate, valid output every time.
 - **[Invoke-EzNameApi](https://github.com/ArchitektApx/Invoke-EzNameApi)** · PowerShell client for the easyname.com API.
-- **[Measure-EventLogVolume](https://github.com/ArchitektApx/Measure-EventLogVolume)** · Estimate Windows event log volume before you commit to Sentinel ingestion costs.
+- **Measure-EventLogVolume** · Estimate Windows event log volume before you commit to Sentinel ingestion costs. _Currently being rewritten, re-release coming soon._
 - **[PowershellModuleTemplate](https://github.com/ArchitektApx/PowershellModuleTemplate)** · Starting point for new PowerShell modules, with build, test and publish wired up from the first commit.
 
 ## Agent tooling
